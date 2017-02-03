@@ -28,7 +28,7 @@
     <!-- Google-Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Allerta Stencil X" rel="stylesheet" type="text/css" >
+    <link href="https://fonts.googleapis.com/css?family=Allerta Stencil X" rel="stylesheet" type="text/css">
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
@@ -36,6 +36,10 @@
     <!-- Custom Styles -->
     <link href="css/main.scss" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/social.css" rel="stylesheet">
+    <link href="css/sizes.css" rel="stylesheet">
     <link href="css/screen.min.css" rel="stylesheet">
 </head>
 
@@ -43,37 +47,37 @@
     <header>
         <section class="hero">
             <div class="container">
-                <div class="row nav-wrapper">
                     <nav class="navbar navbar-fixed-top navbar-custom">
-                        <div class="container-fluid">
+                        <div class="navbar-header hidden-md hidden-lg">
                             <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
+                            <img class="centerHor bolt" src="images/Bolt.png" alt="MAXXtreme Designs" height: "100" width="100">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
                             </div>
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-center">
+                                <ul class="nav navbar-nav">
                                     <li><a href="#how">How it works</a></li>
                                     <li><a href="#features">Features</a></li>
                                     <li><a href="#pricing">Pricing</a></li>
-                                    <a class="navbar-brand centerImage" href="#"><img src="images/MXD.png" alt="MAXXtreme Designs" height: "20" width="150"></a>
+                                    <li id="site-logo" class="hidden-xs">
+                                        <a href="#"><img id="logo-navbar-middle" src="images/MXD.png" width="200" alt="MAXXtreme Designs" height: "20" width="150"></a>
+                                    </li>
                                     <li><a href="#clients">Clients</a></li>
                                     <li><a href="#team">Team</a></li>
                                     <li><a href="#">Log In</a></li>
-                                    <li><a href="#" class="btn-signup btn-primary">Sign Up</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#" class="hidden-md hidden-lg btn-signup btn-primary">Sign Up</a></li>
                                 </ul>
                             </div>
-                            <!-- /.navbar-collapse -->
-                        </div>
                         <!-- /.container-fluid -->
                     </nav>
                     <!-- End nav -->
-                </div>
                 <!-- End row -->
                 <div class="row hero-content text-center">
                     <h1 class="">MAXXtreme Designs</h1>
