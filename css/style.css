@@ -131,13 +131,12 @@ p {
     position: absolute;
     left: 50%;
     margin-right: -50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 .centerVer {
 position: absolute;
     top: 50%;
-    transform: translateY(-50%)
-}
+    transform: translateY(-50%);
 }
 .font-xl {
     font-size: 240px;
@@ -286,4 +285,8 @@ position: absolute;
 .client-list img {
     max-width: 200px;
     height: auto;
+}
+img#bolt.centerHor {
+    padding: 15px;
+    z-index: 999;
 }
