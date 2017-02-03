@@ -1,0 +1,46 @@
+.bolt {
+    padding: 50px;
+    margin: 50px;
+}
+ul.social-icons {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+ul.social-icons li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 6px;
+}
+ul.social-icons li:first-child {
+    margin-left: 0px;
+}
+ul.social-icons li a {
+    display: inline-block;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+}
+ul.social-icons li a:hover {
+    background-color: #ffffff;
+}
+ul.social-icons li a i {
+    color: #2c3035;
+    font-size: 15px;
+    line-height: 30px;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+}
