@@ -1,6 +1,6 @@
 .navbar-collapse {
     text-align: center;
-    height: 400px;
+    height: 700px;
     background-color: #333B4C;
 }
 .navbar-collapse button {
@@ -31,6 +31,9 @@
 }
 .navbar-brand i {
     font-size: 15px;
+}
+ul.navbar-nav {
+    padding-top: 100px;
 }
 .nav>li>a:focus,
 .nav>li>a:hover {

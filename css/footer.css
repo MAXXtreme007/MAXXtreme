@@ -2,16 +2,24 @@
     background-color: #2c3035;
     padding: 20px 0px;
 }
+
 .footer .navbar-brand-footer {
     line-height: 50px;
 }
+
+.footer img {
+    padding-bottom: 50px;
+}
+
 .footer p {
     margin-top: 50px;
     color: rgba(202, 205, 210, 0.59);
 }
+
 .footer .navbar-footer {
     float: right;
 }
+
 .footer .navbar-nav li a {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgba(255, 255, 255, 0.7);

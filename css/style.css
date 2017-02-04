@@ -65,6 +65,10 @@ p {
     font-weight: 400;
 }
 
+h1.company-name {
+    padding-top: 250px;
+}
+
 .slogan {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -75,13 +79,19 @@ p {
 
 .hero {
     width: 100%;
-    height: 100%;
     position: relative;
     padding: 0;
-    min-height: 720px;
     background: #333b4d;
     background-size: cover;
     color: #fff;
+}
+
+section.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .btn-signup {
@@ -127,32 +137,38 @@ p {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
 .centerHor {
     position: absolute;
     left: 50%;
     margin-right: -50%;
     transform: translateX(-50%);
 }
+
 .centerVer {
-position: absolute;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .font-xl {
     font-size: 240px;
 }
+
 .hero h1 {
-    margin: 150px 0 0px 0;
+    /*margin: 150px 0 0px 0;*/
     font-weight: 300;
     font-size: 30px;
     letter-spacing: 1px;
 }
+
 .hero h4 {
     margin-bottom: 45px;
     font-family: 'Lato', sans-serif;
     color: #C2BEBE;
     line-height: 26px;
 }
+
 .use-btn {
     display: inline-block;
     margin: 0 10px 10px 0;
@@ -164,35 +180,43 @@ position: absolute;
     font-weight: 700;
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 .features-2 {
     min-height: 85px;
 }
+
 .features-2 img {
     max-width: 80px;
     margin: 0px auto;
     vertical-align: bottom;
 }
+
 .content-wrap {
     position: relative;
     color: #bdc3c7;
     overflow: hidden;
 }
+
 .content-wrap h3 {
     margin-top: 30px;
     margin-bottom: 30px;
     color: #3f3f4d;
 }
+
 .content-wrap p {
     margin-bottom: 30px;
     line-height: 30px;
     color: #999;
 }
+
 .dark-bg {
     text-align: center;
 }
+
 .wrapper-lg {
     padding: 120px 0;
 }
+
 .signup-divider .form-group,
 .fast-reg .form-group {
     width: 25%;
@@ -200,6 +224,7 @@ position: absolute;
     margin-right: 15px;
     margin-bottom: 0;
 }
+
 .signup-divider .form-control,
 .fast-reg .form-control,
 .earlyaccess .form-control {
@@ -210,17 +235,21 @@ position: absolute;
     height: 50px;
     color: #444;
 }
+
 .sign-title {
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 28px;
 }
+
 .text-white {
     color: #444;
 }
+
 .featured-img img {
     margin: 0px auto;
 }
+
 .price_card {
     background: #fafafa;
     position: relative;
@@ -229,6 +258,7 @@ position: absolute;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
 .header {
     color: rgb(255, 255, 255);
     font-family: 'Cuprum', sans-serif;
@@ -239,6 +269,7 @@ position: absolute;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 .price {
     width: 100%;
     font-size: 60px;
@@ -247,6 +278,7 @@ position: absolute;
     text-align: center;
     padding: 30px 0 10px;
 }
+
 .name {
     width: 100%;
     font-size: 16px;
@@ -255,6 +287,7 @@ position: absolute;
     text-align: center;
     padding: 0 0 30px;
 }
+
 .price-features {
     list-style: none;
     text-align: center;
@@ -262,19 +295,23 @@ position: absolute;
     margin: 0;
     padding: 0;
 }
+
 .price-features li {
     margin: 0 35px;
     padding: 20px 15px;
 }
+
 .price-features li:not(:last-child) {
     border: 1px solid rgb(242, 242, 242);
     border-top: 0;
     border-left: 0;
     border-right: 0;
 }
+
 .price_card button {
     margin-top: 20px;
 }
+
 .tip {
     font-family: 'Indie Flower';
     position: absolute;
@@ -282,11 +319,22 @@ position: absolute;
     font-size: 20px;
     margin: 10px 5px;
 }
+
 .client-list img {
     max-width: 200px;
     height: auto;
 }
+
 img#bolt.centerHor {
-    padding: 15px;
-    z-index: 999;
+    position: fixed;
+    padding-top: 15px;
+    z-index: 99;
+}
+
+.block {
+    display: flex;
+}
+
+.sticky {
+    position: none;
 }
