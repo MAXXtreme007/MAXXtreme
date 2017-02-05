@@ -172,8 +172,6 @@ body {
 
 .contact {
     width: 100%;
-    min-height: 500px;
-    padding: 50px 0;
     background-color: #ecf0f1;
     text-align: left
 }

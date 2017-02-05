@@ -1,26 +1,67 @@
-.footer {
-    background-color: #2c3035;
-    padding: 20px 0px;
+.contact {
+    height: 425px;
+    background-color: #333B4C;
+}
+
+.contact-h1 {
+    padding: 100px 0 20px 0;
+}
+
+.contact-h2 {
+    padding: 150px 0 20px 0;
+}
+
+.contact-i {
+    padding: 20px 0 0 0;
+}
+
+.blue {
+    height: 425px;
+    border-radius: 250px;
+    border: #61686B;
+    background-color: #48C5FC;
+    /*color: #FFF;*/
+}
+
+.orange {
+    height: 425px;
+    border-radius: 250px;
+    border: #61686B;
+    background-color: #FF6600;
+    color: #FFF;
+}
+
+.green {
+    height: 425px;
+    border-radius: 250px;
+    border: #61686B;
+    background-color: #C7FD34;
+    /*color: #FFF;*/
+}
+
+footer {
+    background-color: #333B4C;
+    padding: 50px 50px 0 50px;
 }
 
 .footer .navbar-brand-footer {
     line-height: 50px;
 }
 
-.footer img {
+footer img {
     padding-bottom: 50px;
 }
 
-.footer p {
+footer p {
     margin-top: 50px;
     color: rgba(202, 205, 210, 0.59);
 }
 
-.footer .navbar-footer {
+footer .navbar-footer {
     float: right;
 }
 
-.footer .navbar-nav li a {
+footer .navbar-nav li a {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgba(255, 255, 255, 0.7);
     font-size: 16px;

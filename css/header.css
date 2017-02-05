@@ -1,14 +1,14 @@
+.nav {
+    padding: 0;
+}
 .navbar-collapse {
     text-align: center;
-    min-height: 900px;
     background-color: #333B4C;
 }
 .navbar-collapse button {
     text-align: center;
 }
 .navbar-custom {
-    margin: 0px;
-    border-radius: 0px;
     background-color: #333B4C;
 }
 .navbar-custom ul li a {
@@ -33,7 +33,7 @@
     font-size: 15px;
 }
 ul.navbar-nav {
-    padding-top: 150px;
+    padding-top: 35px;
 }
 .nav>li>a:focus,
 .nav>li>a:hover {
