@@ -44,10 +44,234 @@
 </head>
 
 <body>
-    <div class="landing">
-    
+    <header>
+        <section class="container">
+            <nav class="navbar navbar-fixed-top navbar-custom">
+                <div class="navbar-header hidden-md hidden-lg">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <img class="centerHor" id="bolt" src="images/bolt-logo.png" alt="MAXXtreme Designs">
+                    <button type="button" class="navbar-toggle collapsed" onclick="shrink()" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse " id="bs-navbar-collapse">
+                    <ul class="nav navbar-nav col-lg-10">
+                        <li><a href="#how">How it works</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li id="site-logo" class="hidden-xs">
+                            <a href="#"><img id="logo-navbar-middle" src="images/MXD.png" alt="MAXXtreme Designs" height: "20" width="150"></a>
+                        </li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#">Log In</a></li>
+                    </ul>
+                    <ul class="col-lg-2">
+                        <li><a href="#" class="btn-signup btn-primary">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <div class="hero">
+        <div class="hero hero-content text-center">
+            <h1 class="company-name">MAXXtreme Designs</h1>
+            <div id="macbook">
+                <div id="tour" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#tour" data-slide-to="0" class="active"></li>
+                        <li data-target="#tour" data-slide-to="1"></li>
+                        <li data-target="#tour" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <!-- slide item -->
+                        <div class="item active">
+                            <img src="images/stock1.jpg" alt="slide-img">
+                        </div>
+                        <!-- slide item -->
+                        <div class="item">
+                            <img src="images/stock2.jpg" alt="slide-img">
+                        </div>
+                        <!-- slide item -->
+                        <div class="item">
+                            <img src="images/stock3.jpg" alt="slide-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- <section class="team" id="team">
+    <section class="section features" id="how">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="title">How It Works ?</h2>
+                    <p class="slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+            </div>
+            <!-- End row -->
+            <div class="row pt80">
+                <div class="col-sm-4">
+                    <div class="features-2">
+                        <img src="images/drawing-tablet.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Responsive Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <!-- End col -->
+                <div class="col-sm-4">
+                    <div class="features-2">
+                        <img src="images/code-window.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Clean Code</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis.</p>
+                    </div>
+                </div>
+                <!-- End col -->
+                <div class="col-sm-4">
+                    <div class="features-2">
+                        <img src="images/clock.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Easy Customize</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+                <!-- End col -->
+            </div>
+            <!-- End row -->
+        </div>
+    </section>
+    <!-- features -->
+    <section class="content-wrap bg-light section pb0" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="feature-sec">
+                        <h3>Inbox &amp; Contact-list App</h3>
+                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vivamus eu sollicitudin lacus, nec ultricies lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat arcu ut orci porta, eget porttitor felis suscipit. Sed a nisl ullamcorper, tempus augue at, rutrum lacus. </p>
+                        <a href="#" class="use-btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+                <!-- End col -->
+                <div class="col-sm-6 featured-img">
+                    <img src="images/screen-3.png" alt="Features-img" class="img-responsive">
+                </div>
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!-- End Features -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2 class="title">Simple Pricing</h2>
+                    <p class="slogan">Work on joint projects. Access time entries of your fellow team members and run reports for the entire team.</p>
+                </div>
+            </div>
+            <!-- End row -->
+            <div class="row pt80">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="price_card text-center">
+                                <div class="header bg-info">
+                                    <span class="price">$10</span>
+                                    <span class="name">Starter Pack</span>
+                                </div>
+                                <ul class="price-features">
+                                    <li>5 Projects</li>
+                                    <li>1 GB Storage</li>
+                                    <li>No Domain</li>
+                                    <li>1 User</li>
+                                </ul>
+                                <button class="btn btn-info w-md">Sign Up</button>
+                            </div>
+                            <!-- End Pricing_card -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-sm-4">
+                            <div class="price_card text-center">
+                                <div class="header bg-pink">
+                                    <span class="price">$20</span>
+                                    <span class="name">Professional Pack</span>
+                                </div>
+                                <ul class="price-features">
+                                    <li>15 Projects</li>
+                                    <li>5 GB Storage</li>
+                                    <li>2 Domain</li>
+                                    <li>10 User</li>
+                                </ul>
+                                <button class="btn btn-pink w-md">Sign Up</button>
+                            </div>
+                            <span class="tip">* Most popular!</span>
+                        </div>
+                        <!-- End col -->
+                        <div class="col-sm-4">
+                            <div class="price_card text-center">
+                                <div class="header bg-purple">
+                                    <span class="price">$30</span>
+                                    <span class="name">Enterprise Pack</span>
+                                </div>
+                                <ul class="price-features">
+                                    <li>Unlimited Projects</li>
+                                    <li>10 GB Storage</li>
+                                    <li>10 Domain</li>
+                                    <li>100 User</li>
+                                </ul>
+                                <button class="btn btn-purple w-md">Sign Up</button>
+                            </div>
+                            <!-- End Pricing_card -->
+                        </div>
+                        <!-- End col -->
+                    </div>
+                    <!-- End row -->
+                </div>
+                <!-- End Col-10 -->
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End Container -->
+    </section>
+    <!-- End Pricing -->
+    <section class="bg-light section" id="clients">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2 class="title">Trusted by Thousands</h2>
+                    <p class="slogan">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+                    <ul class="list-inline client-list pt40">
+                        <li>
+                            <a href="" title="Microsoft"><img src="images/clients/microsoft.png" alt="clients"></a>
+                        </li>
+                        <li>
+                            <a href="" title="Google"><img src="images/clients/google.png" alt="clients"></a>
+                        </li>
+                        <li>
+                            <a href="" title="Instagram"><img src="images/clients/instagram.png" alt="clients"></a>
+                        </li>
+                        <li>
+                            <a href="" title="Converse"><img src="images/clients/converse.png" alt="clients"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- /End Container -->
+    </section>
+    <!-- End Clients -->
+    <section class="team" id="team">
         <div class="team__inner">
             <h2 class="team__title">About Us</h2>
             <p class="team__descr">MAXXtreme Design Team</p>
@@ -62,6 +286,7 @@
                     <li><a class="team__member-icon gplus" href="https://plus.google.com/u/1/104095853546738857488">Google+</a></li>
                 </ul>
             </div>
+            <!-- End Matt Campbell Col -->
             <div class="team__member"><img src="images/Jerusha.jpg" alt="Jerusha Campbell">
                 <div class="team__member-info">
                     <h3 class="team__member-name">Jerusha Campbell</h3><span class="team__member-role">Loving Wife</span>
@@ -73,6 +298,7 @@
                     <li><a class="team__member-icon gplus" href="#">Google+</a></li>
                 </ul>
             </div>
+            <!-- End Jerusha Campbell Col -->
             <div class="team__member"><img src="images/Noah.jpg" alt="Noah Galey">
                 <div class="team__member-info">
                     <h3 class="team__member-name">Noah Galey</h3><span class="team__member-role">Web Designer</span>
@@ -84,9 +310,11 @@
                     <li><a class="team__member-icon gplus" href="#">Google+</a></li>
                 </ul>
             </div>
+            <!-- End Noah Col -->
         </div>
     </section>
     <footer>
+        <!-- Contact section-->
         <section class="contact text-center">
             <div class="row">
                 <a href="#">
@@ -110,7 +338,29 @@
                 </a>
             </div>
         </section>
-    </footer> -->
+        <section class="contact text-center">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <a class="navbar-brand-footer" href="#"><img src="images/MXD.png" alt="MAXXtreme Designs" width="150"></a>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#how">How it works</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-lg-2 col-md-2 col-sm-12">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/maxxtreme"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/MAXXtreme007"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/u/1/104095853546738857488"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </section>
+    </footer>
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
