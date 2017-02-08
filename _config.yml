@@ -11,7 +11,7 @@ email: maxxtremedesigns@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   MAXXtreme Designs is a web design, development, and deployment agency.
   Focused on pixel-perfect, scalable, and maintainable sites, MAXXtreme creates perfect static sites for companies & individuals.
-baseurl: "/landing.html" # the subpath of your site, e.g. /blog
+baseurl: "/index.html" # the subpath of your site, e.g. /blog
 url: "http://www.maxxtremedesigns.com" # the base hostname & protocol for your site
 twitter_username: MAXXtreme007
 github_username:  MAXXtreme007
