@@ -16,14 +16,15 @@
 }
 
 .blue {
+    padding: 20px;
     height: 425px;
     border-radius: 250px;
     border: #61686B;
     background-color: #48C5FC;
-    /*color: #FFF;*/
 }
 
 .orange {
+    padding: 20px;
     height: 425px;
     border-radius: 250px;
     border: #61686B;
@@ -32,11 +33,11 @@
 }
 
 .green {
+    padding: 20px;
     height: 425px;
     border-radius: 250px;
     border: #61686B;
     background-color: #C7FD34;
-    /*color: #FFF;*/
 }
 
 footer {
