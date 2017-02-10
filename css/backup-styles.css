@@ -1,0 +1,348 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Allerta Stencil X', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cuprum', sans-serif;
+}
+
+.fa {
+    font-size: 100px;
+}
+
+.section {
+    padding: 120px 0px;
+}
+
+.bg-light {
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #737373;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.pt80 {
+    padding-top: 80px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.pb0 {
+    padding-bottom: 0px;
+}
+
+
+/* ---- Width-Sizes ---*/
+
+.w-xs {
+    min-width: 80px;
+}
+
+.w-sm {
+    min-width: 95px;
+}
+
+.w-md {
+    min-width: 110px;
+}
+
+.w-lg {
+    min-width: 140px;
+}
+
+.title {
+    font-weight: 400;
+}
+
+h1.company-name {
+    padding-top: 250px;
+}
+
+.slogan {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+    max-width: 580px;
+    margin: 0px auto;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background: #333b4d;
+    background-size: cover;
+    color: #fff;
+}
+
+section.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn-signup {
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+#macbook {
+    background: url("../images/mac.png");
+    width: 967px;
+    height: 484px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+#tour {
+    margin: 0 auto;
+    width: 652px;
+    height: 432px;
+    position: relative;
+    top: 22px;
+    left: -4px;
+}
+
+.carousel-indicators li {
+    border: 1px solid #333b4d;
+}
+
+.carousel-indicators .active {
+    background: #333b4d;
+}
+
+.carousel-inner>.item {
+    margin-top: -2px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.centerHor {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+}
+
+.centerVer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.font-xl {
+    font-size: 240px;
+}
+
+.hero h1 {
+    /*margin: 150px 0 0px 0;*/
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.hero h4 {
+    margin-bottom: 45px;
+    font-family: 'Lato', sans-serif;
+    color: #C2BEBE;
+    line-height: 26px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.use-btn {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 15px 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.features-2 {
+    min-height: 85px;
+}
+
+.features-2 img {
+    max-width: 80px;
+    margin: 0px auto;
+    vertical-align: bottom;
+}
+
+.content-wrap {
+    position: relative;
+    color: #bdc3c7;
+    overflow: hidden;
+}
+
+.content-wrap h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #3f3f4d;
+}
+
+.content-wrap p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #999;
+}
+
+.dark-bg {
+    text-align: center;
+}
+
+.wrapper-lg {
+    padding: 120px 0;
+}
+
+.signup-divider .form-group,
+.fast-reg .form-group {
+    width: 25%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.signup-divider .form-control,
+.fast-reg .form-control,
+.earlyaccess .form-control {
+    background: transparent;
+    border: 2px solid #444;
+    font-weight: 400;
+    font-size: 14px;
+    height: 50px;
+    color: #444;
+}
+
+.sign-title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.text-white {
+    color: #444;
+}
+
+.featured-img img {
+    margin: 0px auto;
+}
+
+.price_card {
+    background: #fafafa;
+    position: relative;
+    padding-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    font-family: 'Cuprum', sans-serif;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.price {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.name {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.price-features {
+    list-style: none;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    margin: 0;
+    padding: 0;
+}
+
+.price-features li {
+    margin: 0 35px;
+    padding: 20px 15px;
+}
+
+.price-features li:not(:last-child) {
+    border: 1px solid rgb(242, 242, 242);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.price_card button {
+    margin-top: 20px;
+}
+
+.tip {
+    font-family: 'Indie Flower';
+    position: absolute;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+.client-list img {
+    max-width: 200px;
+    height: auto;
+}
+
+img#bolt.centerHor {
+    position: fixed;
+    padding-top: 15px;
+    z-index: 99;
+}
+
+.sticky {
+    position: none;
+}
+
+.landing {
+    background-color: #333B4C;
+}

@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 767px) {
+    /****Mobile Landscape 480 Container 100% ****/
+    .team-leader-box {
+        max-width: 307px;
+        width: auto;
+        float: none;
+        margin: 0 auto;
+    }
+    .team-leader-box:nth-of-type(3n) {
+        margin: 0 auto
+    }
+    .main-section.team {
+        padding: 60px 0 50px;
+    }
+}
