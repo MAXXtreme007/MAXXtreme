@@ -4,7 +4,7 @@
         sel = $(this);
         //array of custom settings
         var settings = {
-            'date': ("3/1/2017 00:00:00"),
+            'date': ("3/1/2017 12:00:00"),
             'format': "on"
         };
         //main countdown function
