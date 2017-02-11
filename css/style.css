@@ -485,8 +485,10 @@ h3
 			{
 				text-decoration:none;
 			}
-		.team-leader-info
+		.team-leader-name
 		{
+			font-size: 26px;
+			text-decoration: underline;
 		}
 #footercont
 {
