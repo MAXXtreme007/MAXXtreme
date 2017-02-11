@@ -16,3 +16,10 @@
         padding: 60px 0 50px;
     }
 }
+@media only screen and (max-width: 480px) {
+    /*Fix logo going off screen on small screen devices*/
+    img#logo
+    {
+        width: 100%;
+    }
+}

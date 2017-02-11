@@ -107,7 +107,7 @@ h3
 }
 
 /* ==================================================
-   Background Colours
+   Default Colours
 ================================================== */
 
 .blue
@@ -200,7 +200,6 @@ h3
 {
 
 }
-
 	#topcontainer h1
 	{
 		padding: 6px 0 10px 0;
@@ -216,31 +215,27 @@ h3
 			letter-spacing: -1.4px;
 			font-weight: 300;
 		}
-
 	#topcontainer p
 	{
 		margin-bottom: 0;
 		color: #999;
 	}
-
-	#topcontainer p span
-	{
-		font-size: 90px;
-		line-height: 90px;
-		color: #1abc9c;
-	}
+		#topcontainer p span
+		{
+			font-size: 90px;
+			line-height: 90px;
+			color: #1abc9c;
+		}
 #countdown
 {
 	color: #FFF;
 }
-
 	#countdown #countdowncont
 	{
 		width: 100%;
 		max-width: 700px;
 		margin: 0 auto;
 	}
-
 		#countdown #countdowncont ul#countscript li
 		{
 			float: left;
@@ -271,7 +266,6 @@ h3
 {
 	color: #FFF;
 }
-
 	#maincont a
 	{
 		color: #FFF;
@@ -286,7 +280,6 @@ h3
 		margin: 0 auto 20px auto;
 		width: 80%;
 	}
-
 		.sb-search
 		{
 			position: relative;
@@ -295,7 +288,6 @@ h3
 			height: 50px;
 			overflow: hidden;
 		}
-
 			.sb-search .sb-search-input
 			{
 				position: absolute;
@@ -318,7 +310,6 @@ h3
 				border-radius: 0px;
 				-webkit-appearance: none;
 			}
-
 		button.formbutton, .sb-search-submit 
 		{
 			width: 60px;
@@ -332,7 +323,6 @@ h3
 			text-align: center;
 			cursor: pointer;
 		}
-
 			.sb-search-submit
 			{
 				background: #FFF; /* IE needs this */
