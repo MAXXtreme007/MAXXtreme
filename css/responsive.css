@@ -1,25 +1,135 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (max-width: 767px) {
-    /****Mobile Landscape 480 Container 100% ****/
-    .team-leader-box {
+
+   @media screen and (max-width: 1024px) {
+    #macbook
+    {
+        width: 750px;
+        height: 395px;
+        background-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -20px;
+        position: static;
+    }
+    #tour
+    {
+        width: 518px;
+        height: 330px;
+        top: 18px;
+    }
+    #tour .carousel-inner img
+    {
+        width: 518px;
+        height: 330px;
+    }
+    .jumbotron
+    {
+        margin-bottom: 1em;
+    }
+    nav .navbar .navbar-fixed-top .navbar-custom
+    {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #macbook
+    {
+        background-image: none;
+        width: 500px;
+        height: 265px;
+        background-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -56px;
+        position: static;
+    }
+    #tour
+    {
+        width: 344px;
+        height: 217px;
+        top: 12px;
+        left: 1px;
+    }
+    #tour .carousel-inner img
+    {
+        width: 344px;
+        height: 217px;
+    }
+    .main-section.team
+    {
+        padding: 60px 0 50px;
+    }
+    .navbar-collapse
+    {
+        max-height: 50px;
+    }
+    .team-leader-box
+    {
         max-width: 307px;
         width: auto;
         float: none;
         margin: 0 auto;
     }
-    .team-leader-box:nth-of-type(3n) {
+    .team-leader-box:nth-of-type(3n)
+    {
         margin: 0 auto
     }
-    .main-section.team {
-        padding: 60px 0 50px;
+    .feature-sec .use-btn
+    {
+        margin-bottom: 30px;
+    }
+    .footer .navbar-brand-footer
+    {
+        text-align: center;
+    }
+    .footer .navbar-nav
+    {
+        float: none;
+        text-align: center;
     }
 }
-@media only screen and (max-width: 480px) {
+
+@media screen and (max-width: 640px) {
+    .navbar-collapse
+    {
+        min-height: 350px;
+        max-height: 500px;
+    }
+    .price_card
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     /*Fix logo going off screen on small screen devices*/
     img#logo
     {
         width: 100%;
+    }
+    #macbook
+    {
+        background-image: none;
+        text-align: center;
+        width: 100%;
+    }
+    #tour
+    {
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 300px;
+        height: 189px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tour .carousel-inner img
+    {
+        max-width: 300px;
+        height: 189px;
+        overflow: hidden;
     }
 }

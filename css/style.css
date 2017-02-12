@@ -60,6 +60,11 @@ body
 	background: #FC6621;
 	color: #FFF;
 }
+
+/* ==================================================
+   Default Typography
+================================================== */
+
 a
 {
 	color: #16A085;
@@ -69,11 +74,6 @@ a
 	{
 		color: #444;
 	}
-
-/* ==================================================
-   Default Typography
-================================================== */
-
 p
 {
 	margin: 0 0 20px 0;
@@ -104,6 +104,12 @@ h3
 {
 	font-size: 32px;
 	line-height: 32px;
+}
+sup
+{
+	display: inline-block;
+	font-size: 0.5em;
+	color: #FFF;
 }
 
 /* ==================================================
@@ -188,7 +194,6 @@ h3
 	padding: 60px 30px;
 	min-width: 280px;
 }
-
 	.fullwidth .bodycontainer
 	{
 		margin: 0 auto;
@@ -226,6 +231,11 @@ h3
 			line-height: 90px;
 			color: #1abc9c;
 		}
+
+/* ==================================================
+   Countdown
+================================================== */
+
 #countdown
 {
 	color: #FFF;
@@ -244,7 +254,6 @@ h3
 			margin: 0;
 			list-style-type: none;
 		}
-
 			#countdown #countdowncont ul#countscript li span
 			{
 				font-size: 80px;
@@ -252,7 +261,6 @@ h3
 				font-weight: 300;
 				color: #FFF;
 			}
-
 			#countdown #countdowncont ul#countscript li p
 			{
 				color: rgba(255, 255, 255, 0.6);
@@ -262,6 +270,11 @@ h3
 				line-height: 18px;
 				margin: 0;
 			}
+
+/* ==================================================
+   Main Container
+================================================== */
+
 #maincont
 {
 	color: #FFF;
@@ -350,6 +363,11 @@ h3
 				{
 					background: #149077;
 				}
+
+/* ==================================================
+   Testimonial Quotes
+================================================== */
+
 #quotecont
 {
 	padding: 30px 0;
@@ -363,6 +381,10 @@ h3
 		{
 			background: #C8FB49;
 		}
+
+/* ==================================================
+   Team
+================================================== */
 
 .team-leader-block
 {
@@ -480,6 +502,22 @@ h3
 			font-size: 26px;
 			text-decoration: underline;
 		}
+
+/* ==================================================
+   Modal
+================================================== */
+
+h2.modal-title
+{
+	text-align: center;
+	color: #FC6621;
+	font-weight: bold;
+}
+
+/* ==================================================
+   Footer
+================================================== */
+
 #footercont
 {
 	position: relative;
@@ -554,7 +592,6 @@ h3
 .fa-linkedin:hover {
 	color: #0077B5;
 }
-
 
 /* ==================================================
    Responsive Media Queries - Tablets
