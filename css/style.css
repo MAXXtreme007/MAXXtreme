@@ -140,11 +140,84 @@ sup
 	color: #FFF;
 	/*box-shadow:0px 0px 0px 7px rgba(97,104,107,0.80);*/
 }
+.mxd
+{
+	background: linear-gradient(0deg, #4fc6fa, #c8fb49);
+	background-size: 400% 400%;
+
+	-webkit-animation: AnimationName 8s ease infinite;
+	-moz-animation: AnimationName 8s ease infinite;
+	animation: AnimationName 8s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	0%{background-position:51% 0%}
+	50%{background-position:50% 100%}
+	100%{background-position:51% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	0%{background-position:51% 0%}
+	50%{background-position:50% 100%}
+	100%{background-position:51% 0%}
+	}
+	@keyframes AnimationName { 
+	0%{background-position:51% 0%}
+	50%{background-position:50% 100%}
+	100%{background-position:51% 0%}
+	}
+}
+.orange-green-blue
+{
+	background: linear-gradient(#FC6621,#C8FB49, #4FC6FA);
+}
+.green-blue
+{
+	background: linear-gradient(#C8FB49, #4FC6FA);
+}
+.blue-orange
+{
+	background: linear-gradient(#4FC6FA, #FC6621);
+}
+.orange-green
+{
+	background: linear-gradient(#FC6621, #C8FB49);
+}
+.green-gray
+{
+	background: linear-gradient(#C8FB49, #61686B);
+}
+.gray-white
+{
+	background: linear-gradient(#61686B, #FFFFFF);
+}
 
 /* ==================================================
    Separator Arrows
 ================================================== */
 
+.arrow-text
+{
+	display: none;
+}
+.hover-arrow
+{
+	height: 50px;
+	background-color: #4FC6FA;
+	text-align: center;
+}
+	.hover-arrow:hover
+	{
+		padding: 0px;
+	}
+	.hover-arrow:hover .arrow-separator
+	{
+		display: none;
+	}
+	.hover-arrow:hover .arrow-text
+	{
+		display: inline-block;
+		font-weight: bold;
+		font-size: 100px;
+	}
 .arrow-separator
 {
 	position: relative;
@@ -188,10 +261,51 @@ sup
    General Layout Styles
 ================================================== */
 
+.vertical-center
+{
+	min-height: 100%;  /* Fallback for vh unit */
+	min-height: 100vh; /* You might also want to use height' property instead.
+
+	Note that for percentage values of
+	'height' or 'min-height' properties,
+	the 'height' of the parent element
+	should be specified explicitly.
+
+	In this case the parent of '.vertical-center'
+	is the <body> element */
+
+	/* Make it a flex container */
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex; 
+
+	/* Align the bootstrap's container vertically */
+	-webkit-box-align : center;
+	-webkit-align-items : center;
+	-moz-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+
+	/* In legacy web browsers such as Firefox 9
+	we need to specify the width of the flex container */
+	width: 100%;
+
+	/* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+	hence the bootstrap's container won't be aligned to the center anymore.
+
+	Therefore, we should use the following declarations to get it centered again */
+	-webkit-box-pack : center;
+	-moz-box-pack : center;
+	-ms-flex-pack : center;
+	-webkit-justify-content : center;
+	justify-content : center;
+}
 .fullwidth
 {
 	width: 100%;
-	padding: 60px 30px;
+	padding: 40px 30px;
 	min-width: 280px;
 }
 	.fullwidth .bodycontainer
@@ -201,9 +315,39 @@ sup
 		max-width: 1000px;
 		text-align: center;
 	}
+.carousel-indicators li
+{
+	width: 15px;
+	height: 15px;
+	background-color: #C8FB49;
+}
+	.carousel-indicators:active
+	{
+		width: 20px;
+		height: 20px;
+		background-color: #FF6600;
+	}
+#macbook
+{
+    background: url("../images/mac.png");
+    background-repeat: no-repeat;
+    width: 967px;
+    height: 484px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+#tour
+{
+    margin: 0 auto;
+    width: 652px;
+    height: 432px;
+    position: relative;
+    top: 22px;
+    left: -4px;
+}
 #topcontainer
 {
-
+	padding: 35px 0 0 0;
 }
 	#topcontainer h1
 	{
@@ -233,43 +377,25 @@ sup
 		}
 
 /* ==================================================
-   Countdown
+   About Me
 ================================================== */
 
-#countdown
+#passion
 {
-	color: #FFF;
+	padding-top: 60px;
 }
-	#countdown #countdowncont
-	{
-		width: 100%;
-		max-width: 700px;
-		margin: 0 auto;
-	}
-		#countdown #countdowncont ul#countscript li
-		{
-			float: left;
-			width: 25%;
-			padding: 30px 0;
-			margin: 0;
-			list-style-type: none;
-		}
-			#countdown #countdowncont ul#countscript li span
-			{
-				font-size: 80px;
-				line-height: 80px;
-				font-weight: 300;
-				color: #FFF;
-			}
-			#countdown #countdowncont ul#countscript li p
-			{
-				color: rgba(255, 255, 255, 0.6);
-				font-weight: 300;
-				text-transform: uppercase;
-				font-size: 18px;
-				line-height: 18px;
-				margin: 0;
-			}
+#quote
+{
+	display: block;
+	width: 70%;
+	height: 70%;
+	margin: 50px auto;
+}
+#person
+{
+	width: 60%;
+	height: 60%;
+}
 
 /* ==================================================
    Main Container
@@ -278,6 +404,7 @@ sup
 #maincont
 {
 	color: #FFF;
+	padding: 75px 0;
 }
 	#maincont a
 	{
