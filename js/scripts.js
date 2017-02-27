@@ -12,50 +12,154 @@ easeInCirc:function(e,a,c,b,d){return-b*(Math.sqrt(1-(a/=d)*a)-1)+c},easeOutCirc
 a,c,b,d){e=1.70158;var f=0,g=b;if(a==0)return c;if((a/=d)==1)return c+b;f||(f=d*0.3);if(g<Math.abs(b)){g=b;e=f/4}else e=f/(2*Math.PI)*Math.asin(b/g);return g*Math.pow(2,-10*a)*Math.sin((a*d-e)*2*Math.PI/f)+b+c},easeInOutElastic:function(e,a,c,b,d){e=1.70158;var f=0,g=b;if(a==0)return c;if((a/=d/2)==2)return c+b;f||(f=d*0.3*1.5);if(g<Math.abs(b)){g=b;e=f/4}else e=f/(2*Math.PI)*Math.asin(b/g);if(a<1)return-0.5*g*Math.pow(2,10*(a-=1))*Math.sin((a*d-e)*2*Math.PI/f)+c;return g*Math.pow(2,-10*(a-=1))*Math.sin((a*
 d-e)*2*Math.PI/f)*0.5+b+c},easeInBack:function(e,a,c,b,d,f){if(f==undefined)f=1.70158;return b*(a/=d)*a*((f+1)*a-f)+c},easeOutBack:function(e,a,c,b,d,f){if(f==undefined)f=1.70158;return b*((a=a/d-1)*a*((f+1)*a+f)+1)+c},easeInOutBack:function(e,a,c,b,d,f){if(f==undefined)f=1.70158;if((a/=d/2)<1)return b/2*a*a*(((f*=1.525)+1)*a-f)+c;return b/2*((a-=2)*a*(((f*=1.525)+1)*a+f)+2)+c},easeInBounce:function(e,a,c,b,d){return b-jQuery.easing.easeOutBounce(e,d-a,0,b,d)+c},easeOutBounce:function(e,a,c,b,d){return(a/=
 d)<1/2.75?b*7.5625*a*a+c:a<2/2.75?b*(7.5625*(a-=1.5/2.75)*a+0.75)+c:a<2.5/2.75?b*(7.5625*(a-=2.25/2.75)*a+0.9375)+c:b*(7.5625*(a-=2.625/2.75)*a+0.984375)+c},easeInOutBounce:function(e,a,c,b,d){if(a<d/2)return jQuery.easing.easeInBounce(e,a*2,0,b,d)*0.5+c;return jQuery.easing.easeOutBounce(e,a*2-d,0,b,d)*0.5+b*0.5+c}});
-
 /** Scroll **/
 
 $(document).ready(function() {
-	"use strict";
-	$('.backtotop a').bind('click',function(event){
-		var $anchor = $(this);
-		$('html, body').stop().animate({ scrollTop: $($anchor.attr('href')).offset().top }, 500,'easeInOutExpo');
-		event.preventDefault();
-	});
+    "use strict";
+    $('.backtotop a').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({ scrollTop: $($anchor.attr('href')).offset().top }, 500, 'easeInOutExpo');
+        event.preventDefault();
+    });
 });
 
 /** Countdown Timer **/
 
 $(document).ready(function() {
-	"use strict";
-	$("#countdown").countdown({
-		date: "12 june 2015 12:00:00", /** Enter new date here **/
-		format: "on"
-	},
-	function() {
-		// callback function
-	});
+    "use strict";
+    $("#countdown").countdown({
+            date: "12 june 2015 12:00:00",
+            /** Enter new date here **/
+            format: "on"
+        },
+        function() {
+            // callback function
+        });
 });
 
 /** Owl Carousel **/
-
 $(window).load(function() {
-	"use strict";
-	$("#commentslider").owlCarousel({
-		autoPlay: false, /** for autoplay - change false to 4000 to auto change every 4 seconds (for example) **/
-		autoHeight: true,
-		stopOnHover: true,
-		navigation: false,
-		navigationText: ["prev","next"],
-		pagination: true,
-		paginationNumbers: false,
-		paginationSpeed: 500,
-		goToFirstSpeed: 500,
-		slideSpeed: 500,
-		rewindSpeed: 500,
-		singleItem: true,
-		lazyLoad: false,
-		transitionStyle: "backSlide" /** fade, backSlide, goDown, fadeUp - Remove whole line for slide transition **/
-	});
+    $('#macbook-screen').owlCarousel({
+        items: 1,
+        center: true,
+        rewind: false,
+        autoWidth: false,
+        autoHeight: false,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 50,
+        nav: false
+    });
+    $('#personslider').owlCarousel({
+        center: true,
+        rewind: true,
+        autoWidth: false,
+        autoHeight: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
+    $('#commentslider').owlCarousel({
+        items: 1,
+        center: true,
+        rewind: false,
+        autoWidth: false,
+        autoHeight: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 10,
+        nav: false
+    });
+    $('.owl-carousel').owlCarousel({
+        center: true,
+        rewind: false,
+        autoWidth: false,
+        autoHeight: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
 });
 
+// $("#personslider").owlCarousel({
+//     loop: true,
+//     responsiveClass: true,
+//     nav: true
+//     responsive: {
+//         0: {
+//             items: 1
+//         },
+//         480: {
+//             items: 3
+//         },
+//         768: {
+//             items: 5
+//         }
+//     }
+//     autoPlay: 1000,
+//     /** for autoplay - change false to 4000 to auto change every 4 seconds (for example) **/
+//     autoHeight: true,
+//     stopOnHover: false,
+//     navigation: true,
+//     navigationText: ["prev", "next"],
+//     pagination: true,
+//     paginationNumbers: false,
+//     paginationSpeed: 500,
+//     goToFirstSpeed: 500,
+//     slideSpeed: 500,
+//     rewindSpeed: 500,
+//     singleItem: true,
+//     lazyLoad: false,
+//     transitionStyle: "backSlide" /** fade, backSlide, goDown, fadeUp - Remove whole line for slide transition **/
+// });
+// $("#commentslider").owlCarousel({
+//     loop: true,
+//     items: 1,
+//     autoPlay: 4000,
+//     /** for autoplay - change false to 4000 to auto change every 4 seconds (for example) **/
+//     autoHeight: true,
+//     stopOnHover: true,
+//     navigation: false,
+//     navigationText: ["prev", "next"],
+//     pagination: true,
+//     paginationNumbers: false,
+//     paginationSpeed: 500,
+//     goToFirstSpeed: 500,
+//     slideSpeed: 500,
+//     rewindSpeed: 500,
+//     singleItem: true,
+//     lazyLoad: false,
+//     transitionStyle: "backSlide" /** fade, backSlide, goDown, fadeUp - Remove whole line for slide transition **/
+// });

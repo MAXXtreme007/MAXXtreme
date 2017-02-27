@@ -17,13 +17,21 @@
 	{
 		font-style: italic;
 		margin: 10px 0;
-		color: #FC6621;
+		color: #FF6600;
 	}
 	#commentslider strong
 	{
 		font-weight: bold;
 		font-style: italic;
 	}
+#personslider .item
+{
+	display: block;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0;
+	cursor: all-scroll;
+}
 
 /* ==================================================
    Default Theme

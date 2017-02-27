@@ -2,9 +2,8 @@
    Media Queries
    ========================================================================== */
 
-   @media screen and (max-width: 1024px) {
-    #macbook
-    {
+@media screen and (max-width: 1024px) {
+    #macbook {
         width: 750px;
         height: 395px;
         background-size: 100%;
@@ -13,32 +12,35 @@
         margin-bottom: -20px;
         position: static;
     }
-    #tour
-    {
+    #macbook-screen {
+        margin: 0 auto;
+        width: 652px;
+        height: 432px;
+        position: relative;
+        top: 22px;
+        left: -4px;
+    }
+    #tour {
         width: 518px;
         height: 330px;
         top: 18px;
     }
-    #tour .carousel-inner img
-    {
+    #tour .carousel-inner img {
         width: 518px;
         height: 330px;
     }
-    .jumbotron
-    {
+    .jumbotron {
         margin-bottom: 1em;
     }
-    nav .navbar .navbar-fixed-top .navbar-custom
-    {
+    nav .navbar .navbar-fixed-top .navbar-custom {
         min-height: 500px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #macbook
-    {
+    #macbook {
         background-image: none;
-        width: 500px;
+        width: 504px;
         height: 265px;
         background-size: 100%;
         margin-left: auto;
@@ -46,78 +48,77 @@
         margin-bottom: -56px;
         position: static;
     }
-    #tour
-    {
+    #macbook-screen {
+        width: 100%;
+    }
+    #tour {
         width: 344px;
         height: 217px;
         top: 12px;
         left: 1px;
     }
-    #tour .carousel-inner img
-    {
+    #tour .carousel-inner img {
         width: 344px;
         height: 217px;
     }
-    .main-section.team
-    {
+    .main-section.team {
         padding: 60px 0 50px;
     }
-    .navbar-collapse
-    {
+    .navbar-collapse {
         max-height: 50px;
     }
-    .team-leader-box
-    {
+    .team-leader-box {
         max-width: 307px;
         width: auto;
         float: none;
         margin: 0 auto;
     }
-    .team-leader-box:nth-of-type(3n)
-    {
+    .team-leader-box:nth-of-type(3n) {
         margin: 0 auto
     }
-    .feature-sec .use-btn
-    {
+    .feature-sec .use-btn {
         margin-bottom: 30px;
     }
-    .footer .navbar-brand-footer
-    {
+    .footer .navbar-brand-footer {
         text-align: center;
     }
-    .footer .navbar-nav
-    {
+    .footer .navbar-nav {
         float: none;
         text-align: center;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .navbar-collapse
-    {
+    #macbook {
+        background-image: none;
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -56px;
+        position: static;
+    }
+    .navbar-collapse {
         min-height: 350px;
         max-height: 500px;
     }
-    .price_card
-    {
+    .price_card {
         margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 480px) {
     /*Fix logo going off screen on small screen devices*/
-    img#logo
-    {
+    img#logo {
         width: 100%;
     }
-    #macbook
-    {
+    #macbook {
         background-image: none;
         text-align: center;
         width: 100%;
     }
-    #tour
-    {
+    #tour {
         top: 0;
         left: 0;
         width: 100%;
@@ -126,8 +127,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    #tour .carousel-inner img
-    {
+    #tour .carousel-inner img {
         max-width: 300px;
         height: 189px;
         overflow: hidden;

@@ -336,7 +336,7 @@ sup
     margin: 0px auto;
     margin-top: 30px;
 }
-#tour
+#macbook-screen
 {
     margin: 0 auto;
     width: 652px;
@@ -384,7 +384,7 @@ sup
 {
 	padding-top: 60px;
 }
-#quote
+#passion-quote
 {
 	display: block;
 	width: 70%;
@@ -395,6 +395,7 @@ sup
 {
 	width: 60%;
 	height: 60%;
+	margin: 0 auto;
 }
 
 /* ==================================================
