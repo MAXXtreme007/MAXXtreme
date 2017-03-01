@@ -1,0 +1,313 @@
+/* ==================================================
+   Google Fonts
+================================================== */
+@import url("reset.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic");
+
+/* ==================================================
+   Global Styles
+================================================== */
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html
+{
+	height: 100%;
+	overflow: auto;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body
+{
+	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 300;
+	color: #999;
+	background: #DDD;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+::selection
+{
+	background: #FC6621;
+	color: #FFF;
+}
+::-moz-selection
+{
+	background: #FC6621;
+	color: #FFF;
+}
+
+/* ==================================================
+   Default Typography
+================================================== */
+
+a
+{
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+	a:hover
+	{
+		color: #59D3DA;
+	}
+h1, h2, h3
+{
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0 0 10px 0;
+	letter-spacing: -1px;
+	font-weight: 300;
+	text-align: center;
+	color: #59D3DA;
+}
+h2
+{
+	font-size: 38px;
+	line-height: 38px;
+}
+h3
+{
+	font-size: 32px;
+	line-height: 32px;
+}
+i.fa
+{
+	font-size: 40px;
+}
+li
+{
+	font-size: 0.8em;
+}
+	li:hover
+	{
+		text-decoration: underline;
+	}
+span
+{
+	text-align: center;
+}
+sup
+{
+	display: inline-block;
+	font-size: 0.5em;
+	color: #FFF;
+}
+ul
+{
+	list-style-type: circle;
+}
+
+/* ==================================================
+   General Layout Styles
+================================================== */
+
+.fullwidth
+{
+	width: 100%;
+	padding: 40px 30px;
+	min-width: 280px;
+}
+	.fullwidth .bodycontainer
+	{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+		text-align: center;
+	}
+.paper
+{
+	background-color: #FFF;
+	width: 850px;
+	padding: 20px 35px 0px;
+	margin: 0 auto;
+	min-width: 360px;
+}
+	.paper.header
+	{
+		padding-bottom: 50px;
+	}
+
+
+/* ==================================================
+   Header
+================================================== */
+
+.header
+{
+	background-color: #43474D;
+}
+#name
+{
+	color: #59D3DA;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+#position
+{
+	color: #FFF;
+	text-decoration: none;
+}
+#profile
+{
+	display: block;
+	width: 100px;
+	border-radius: 50px;
+	margin: -75px auto -50px;
+}
+
+/* ==================================================
+   About Me
+================================================== */
+
+hr#initial
+{
+	margin-top: -10px;
+}
+#info
+{
+	padding-top: 60px;
+	font-size: 0.85em;
+	line-height: 1.2em;
+	text-align: justify;
+}
+
+/* ==================================================
+   Skills
+================================================== */
+
+.title
+{
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	line-height: 1.2em;
+}
+.employer
+{
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+	line-height: 1.2em;
+}
+.work
+{
+	text-decoration: underline;
+	text-align: center;
+}
+	p.work
+	{
+		color: #59D3DA;
+	}
+
+/* ==================================================
+   Experience
+================================================== */
+
+
+
+/* ==================================================
+   Education
+================================================== */
+
+#edu
+{
+	padding-top: 20px;
+	font-size: 0.85em;
+	line-height: 1.2em;
+	text-align: justify;
+}
+
+/* ==================================================
+   Modal
+================================================== */
+
+h2.modal-title
+{
+	text-align: center;
+	color: #FC6621;
+	font-weight: bold;
+}
+
+/* ==================================================
+   Footer
+================================================== */
+
+#footercont
+{
+	position: relative;
+	font-size: 18px;
+}
+	#footercont #socialmedia ul li
+	{
+		display: inline-block;
+		list-style-type: none;
+		margin: 0 10px;
+	}
+		#footercont #socialmedia ul li a
+		{
+			font-size: 36px;
+			color: #999;
+		}
+			#footercont #socialmedia ul li a:hover
+			{
+				color: #FC6621;
+			}
+	#footercont p.backtotop
+	{
+		margin: 0 0 40px 0;
+	}
+		#footercont p.backtotop a
+		{
+			position: relative;
+			display: inline-block;
+			background: #EEE;
+			font-size: 32px;
+			line-height: 32px;
+			color: #999;
+			padding: 5px 12px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+		}
+			#footercont p.backtotop a:hover
+			{
+				background-color: #59D3DA;
+				color: #FFF;
+				text-decoration: none;
+			}
+				#footercont p.backtotop a:active
+				{
+					top: 2px;
+				}
+
+/* ==================================================
+   Social Links
+================================================== */
+
+.fa-twitter:hover {
+	color: #55acee;
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-pinterest:hover {
+	color: #cb2026;
+}
+
+.fa-google-plus:hover {
+	color: #dd4b39;
+}
+.fa-linkedin:hover {
+	color: #0077B5;
+}
