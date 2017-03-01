@@ -217,6 +217,7 @@ sup
 		display: inline-block;
 		font-weight: bold;
 		font-size: 100px;
+		color: #000;
 	}
 .arrow-separator
 {
@@ -327,27 +328,16 @@ sup
 		height: 20px;
 		background-color: #FF6600;
 	}
-#macbook
-{
-    background: url("../images/mac.png");
-    background-repeat: no-repeat;
-    width: 967px;
-    height: 484px;
-    margin: 0px auto;
-    margin-top: 30px;
-}
-#macbook-screen
-{
-    margin: 0 auto;
-    width: 652px;
-    height: 432px;
-    position: relative;
-    top: 22px;
-    left: -4px;
-}
+
+
+
+/* ==================================================
+   Top Container
+================================================== */
+
 #topcontainer
 {
-	padding: 35px 0 0 0;
+	padding: 0px;
 }
 	#topcontainer h1
 	{
@@ -359,8 +349,8 @@ sup
 	}
 		#topcontainer h1 span
 		{
-			font-size: 70px;
-			line-height: 70px;
+			font-size: 1em;
+			line-height: 1em;
 			letter-spacing: -1.4px;
 			font-weight: 300;
 		}
@@ -375,6 +365,32 @@ sup
 			line-height: 90px;
 			color: #1abc9c;
 		}
+#mxd-name
+{
+	font-size: 1.5em;
+}
+#macbook
+{
+    background: url("../images/mac.png");
+    background-repeat: no-repeat;
+    width: 967px;
+    height: 484px;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+#macbook-screen
+{
+    margin: 0 auto;
+    width: 652px;
+    height: 432px;
+    position: relative;
+    top: 22px;
+    left: -4px;
+}
+.owl-dots
+{
+	margin-top: -3px !important;
+}
 
 /* ==================================================
    About Me
@@ -387,15 +403,28 @@ sup
 #passion-quote
 {
 	display: block;
+	padding: 0 15rem;
 	width: 70%;
 	height: 70%;
 	margin: 50px auto;
+}
+#personslider
+{
+	padding-top: 20px;
 }
 #person
 {
 	width: 60%;
 	height: 60%;
 	margin: 0 auto;
+}
+.active #person
+{
+	padding: 60px;
+}
+.active.center #person
+{
+	padding: 0px;
 }
 
 /* ==================================================
@@ -732,31 +761,33 @@ h2.modal-title
 		font-size: 23px;
 		line-height: 29px;
 	}
+	#macbook
+	{
+	    background: url("../images/mac.png");
+	    background-repeat: no-repeat;
+	    width: 967px;
+	    height: 484px;
+	    margin: 0px auto;
+	}
+	#passion-quote
+	{
+		display: block;
+		width: 70%;
+		height: 70%;
+		margin: 50px auto;
+		padding: 0 5rem;
+	}
 	#topcontainer h1
 	{
-		font-size: 54px;
-		line-height: 54px;
+		font-size: 50px;
+		line-height: 50px;
 		letter-spacing: -1.2px;
 	}
 		#topcontainer h1 span
 		{
-			font-size: 70px;
-			line-height: 70px;
+			font-size: 60px;
+			line-height: 60px;
 		}
-	#countdown #countdowncont
-	{
-		max-width: 400px;
-	}
-		#countdown #countdowncont ul#countscript li
-		{
-			width: 50%;
-			padding: 10px 0;
-		}
-			#countdown #countdowncont ul#countscript li span
-			{
-				font-size: 70px;
-				line-height: 70px;
-			}
 	#quotecont
 	{
 		padding: 15px 0;
@@ -792,6 +823,18 @@ h2.modal-title
 		font-size: 21px;
 		line-height: 27px;
 	}
+	#logo
+	{
+		padding: 0 8%;
+	}
+	#passion-quote
+	{
+		display: block;
+		width: 70%;
+		height: 70%;
+		margin: 50px auto;
+		padding: 0px;
+	}
 	#topcontainer h1
 	{
 		font-size: 36px;
@@ -799,22 +842,8 @@ h2.modal-title
 	}
 		#topcontainer h1 span
 		{
-			font-size: 50px;
-			line-height: 50px;
-		}
-	#countdown #countdowncont ul#countscript li
-	{
-		padding: 6px 0;
-	}
-		#countdown #countdowncont ul#countscript li span
-		{
-			font-size: 62px;
-			line-height: 62px;
-		}
-		#countdown #countdowncont ul#countscript li p
-		{
-			font-size: 16px;
-			line-height: 16px;
+			font-size: 48px;
+			line-height: 48px;
 		}
 	#maincont #signupform
 	{
