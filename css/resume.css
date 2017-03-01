@@ -363,6 +363,41 @@ i.material-icons
 Responsive Breakpoints
 ================================================== */
 
+@media screen and (max-width: 991px)
+{
+	.mobile-des
+	{
+		display: block;
+		color: #999;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.mobile-hide
+	{
+		display: none;
+	}
+	.paper
+	{
+		width: 100%;
+	}
+	li
+	{
+		text-align: center;
+	}
+	#name
+	{
+		font-size: 42px;
+	}
+	#position
+	{
+		font-size: 26px;
+	}
+	.popover
+	{
+		display: none !important;
+	}
+}
+
 @media screen and (max-width: 480px)
 {
 	.mobile-des
