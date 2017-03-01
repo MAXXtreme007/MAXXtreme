@@ -122,11 +122,27 @@ ul
 		max-width: 1000px;
 		text-align: center;
 	}
+@media screen and (max-width: 480px)
+{
+	.paper
+{
+	background-color: #FFF;
+	width: 100%;
+	padding: 20px 35px 20px;
+	margin: 0 auto;
+	min-width: 360px;
+}
+	.paper.header
+	{
+		padding-bottom: 50px;
+	}
+}
+
 .paper
 {
 	background-color: #FFF;
 	width: 850px;
-	padding: 20px 35px 0px;
+	padding: 20px 35px 20px;
 	margin: 0 auto;
 	min-width: 360px;
 }
@@ -248,7 +264,7 @@ i.material-icons
 {
 	display: block;
 	width: 200px;
-	border-radius: 100px;
+	border-radius: 200px;
 	margin: 0 auto;
 }
 .ref-name
