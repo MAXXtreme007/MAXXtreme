@@ -122,22 +122,6 @@ ul
 		max-width: 1000px;
 		text-align: center;
 	}
-@media screen and (max-width: 480px)
-{
-	.paper
-{
-	background-color: #FFF;
-	width: 100%;
-	padding: 20px 35px 20px;
-	margin: 0 auto;
-	min-width: 360px;
-}
-	.paper.header
-	{
-		padding-bottom: 50px;
-	}
-}
-
 .paper
 {
 	background-color: #FFF;
@@ -236,6 +220,10 @@ i.material-icons
 	line-height: 46px;
 	color: #999;
 	font-size: 50px;
+}
+.mobile-des
+{
+	display: none;
 }
 
 /* ==================================================
@@ -362,4 +350,27 @@ i.material-icons
 }
 .fa-linkedin:hover {
 	color: #0077B5;
+}
+
+/* ==================================================
+Responsive Breakpoints
+================================================== */
+
+@media screen and (max-width: 480px)
+{
+	.mobile-des
+	{
+		display: block;
+		color: #999;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.paper
+	{
+		width: 100%;
+	}
+	li
+	{
+		text-align: center;
+	}
 }
