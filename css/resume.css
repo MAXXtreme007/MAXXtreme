@@ -84,7 +84,7 @@ i.fa
 }
 li
 {
-	font-size: 0.8em;
+	font-size: 0.72em;
 }
 	li:hover
 	{
@@ -135,7 +135,6 @@ ul
 		padding-bottom: 50px;
 	}
 
-
 /* ==================================================
    Header
 ================================================== */
@@ -174,14 +173,14 @@ hr#initial
 }
 #info
 {
-	padding-top: 60px;
-	font-size: 0.85em;
+	padding: 60px 20px 0 20px;
+	font-size: 0.8em;
 	line-height: 1.2em;
 	text-align: justify;
 }
 
 /* ==================================================
-   Skills
+   Strengths
 ================================================== */
 
 .title
@@ -207,6 +206,21 @@ hr#initial
 	{
 		color: #59D3DA;
 	}
+i.fa
+{
+	display: block;
+	text-align: center;
+	line-height: 46px;
+	color: #999;
+}
+i.material-icons
+{
+	display: block;
+	text-align: center;
+	line-height: 46px;
+	color: #999;
+	font-size: 50px;
+}
 
 /* ==================================================
    Experience
@@ -227,15 +241,32 @@ hr#initial
 }
 
 /* ==================================================
-   Modal
+   References
 ================================================== */
 
-h2.modal-title
+.ref-pic
+{
+	display: block;
+	width: 200px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.ref-name
 {
 	text-align: center;
-	color: #FC6621;
 	font-weight: bold;
 }
+.ref-contact
+{
+	display: block;
+	color: #999;
+	text-align: center;
+	margin: 0 auto;
+}
+	.ref-contact i
+	{
+		font-size: 20px;
+	}
 
 /* ==================================================
    Footer
@@ -288,6 +319,11 @@ h2.modal-title
 				{
 					top: 2px;
 				}
+#socialmedia ul
+{
+	margin: 0px;
+	padding: 0px;
+}
 
 /* ==================================================
    Social Links
