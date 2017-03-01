@@ -134,6 +134,13 @@ ul
 	{
 		padding-bottom: 50px;
 	}
+.mobile-hide
+{
+	display: block;
+	color: #999;
+	text-align: center;
+	margin: 0 auto;
+}
 
 /* ==================================================
    Header
@@ -365,6 +372,10 @@ Responsive Breakpoints
 		text-align: center;
 		margin: 0 auto;
 	}
+	.mobile-hide
+	{
+		display: none;
+	}
 	.paper
 	{
 		width: 100%;
@@ -372,5 +383,17 @@ Responsive Breakpoints
 	li
 	{
 		text-align: center;
+	}
+	#name
+	{
+		font-size: 42px;
+	}
+	#position
+	{
+		font-size: 26px;
+	}
+	.popover
+	{
+		display: none !important;
 	}
 }

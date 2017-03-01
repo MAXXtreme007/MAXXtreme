@@ -70,17 +70,19 @@
         <div class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
             <div class="animated fadeIn delay2s0ms">
                 <hr id="initial">
-                <a href="#info"><img src="images/Profile.png" alt="Matt Campbell" id="profile" class="animated rubberBand delay2s0ms"></a>
+                <a href="#info-text"><img src="images/Profile.png" alt="Matt Campbell" id="profile" class="animated rubberBand delay2s0ms"></a>
             </div>
-            <p id="info" class="collapse in">Passionate about God, family, friends, and the latest and greatest technological advances, I am an ambitious, detail-oriented worker who desires to create fast, efficient, scalable, pixel-perfect web-based content. As an analytical and motivated learner, I am driven by challenges and will not stop until I have successfully accomplished the goal. I am able to quickly master new software packages and hardware technologies. I have a few years of experience working with Java, C#, ASP.NET, HTML, CSS, and SQL although I have recently been teaching myself the Magento framework, PHP, Javascript, JQuery, SASS, and Gulp as well as how to manage full LAMP stacks. Having worked in a fast paced environment helping users of all skill levels with software and hardware troubleshooting, I am thorough, organized, and skilled in communication from concept to completion. I work well under pressure and consistently meet deadlines and targets while delivering high quality work. Keen about optimizing code and workflow to maximize results, I believe I would be a good asset to a company like yours.
-            </p>
+            <div id="info">
+                <p id="info-text" class="collapse in">Passionate about God, family, friends, and the latest and greatest technological advances, I am an ambitious, detail-oriented worker who desires to create fast, efficient, scalable, pixel-perfect web-based content. As an analytical and motivated learner, I am driven by challenges and will not stop until I have successfully accomplished the goal. I am able to quickly master new software packages and hardware technologies. I have a few years of experience working with Java, C#, ASP.NET, HTML, CSS, and SQL although I have recently been teaching myself the Magento framework, PHP, Javascript, JQuery, SASS, and Gulp as well as how to manage full LAMP stacks. Having worked in a fast paced environment helping users of all skill levels with software and hardware troubleshooting, I am thorough, organized, and skilled in communication from concept to completion. I work well under pressure and consistently meet deadlines and targets while delivering high quality work. Keen about optimizing code and workflow to maximize results, I believe I would be a good asset to a company like yours.
+                </p>
+            </div>
         </div>
     </div>
     <div class="paper skills">
         <div class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
             <a href="#skills" data-parent="accordion" data-toggle="collapse"><h2>STRENGTHS</h2></a>
             <div id="skills" class="collapse in">
-                <ul class="col-sm-4">
+                <ul class="col-md-4">
                     <li>Web application development</li>
                     <li>IT security best practices</li>
                     <li>Test-driven programming</li>
@@ -92,7 +94,7 @@
                     <li>SQL database systems</li>
                     <li>macOS specialist</li>
                 </ul>
-                <ul class="col-sm-6">
+                <ul class="col-md-6">
                     <li>Strong interpersonal leadership skills</li>
                     <li>Working with shifting priorities</li>
                     <li>Managing multiple projects simultaneously</li>
@@ -104,14 +106,14 @@
                     <li>Devoted to learning and using best practices</li>
                     <li>Ambitious and motivated to do all jobs excellently</li>
                 </ul>
-                <ul id="strengths" class="col-sm-2">
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Team Leader"><i class="fa fa-users"></i></a>
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="HTML 5"><i class="fa fa-html5"></i></a>
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="CSS 3"><i class="fa fa-css3"></i></a>
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="SQL Database"><i class="fa fa-database"></i>
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Server Technician"><i class="fa fa-server"></i></a>
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Mac Specialist"><i class="fa fa-desktop"></i></a>
-                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Prioritze"><i class="material-icons">low_priority</i></a>
+                <ul id="strengths" class="col-md-2">
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Team Leader"><i class="fa fa-users"></i><p class="mobile-des">Team Leader</p></a>
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="HTML 5"><i class="fa fa-html5"></i><p class="mobile-des">HTML 5</p></a>
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="CSS 3"><i class="fa fa-css3"></i><p class="mobile-des">CSS 3</p></a>
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="SQL Database"><i class="fa fa-database"></i><p class="mobile-des">SQL Database</p></a>
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Server Technician"><i class="fa fa-server"></i><p class="mobile-des">Server Technician</p></a>
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Mac Specialist"><i class="fa fa-desktop"></i><p class="mobile-des">Mac Specialist</p></a>
+                    <a class="pop-me-over" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Prioritzer"><i class="material-icons">low_priority</i><p class="mobile-des">Prioritizer</p></a>
                 </ul>
             </div>
         </div>
@@ -122,11 +124,16 @@
             <div id="experience" class="collapse">
                 <div class="owl-carousel owl-theme">
                     <div class="row item">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <p class="title">IT Director / HR Administrator</p>
-                            <p class="employer">Steel Tech of the Ozarks—Pierce City, MO—05/2016 to present</p>
+                            <p class="employer col-md-4">Steel Tech of the Ozarks</p>
+                            <p class="employer col-md-4">Pierce City, MO</p>
+                            <p class="employer col-md-4">May 2016 to Present</p>
+                            <div class="col-md-12">
+                                <hr>
+                            </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-md-4">
                             <p class="work">Information Technology</p>
                             <ul>
                                 <li>Oversaw implementation of new PBX and ISP system.</li>
@@ -139,7 +146,7 @@
                                 <li>Trained users in the proper use of hardware and software.</li>
                             </ul>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-md-4">
                             <p class="work">Human Resources</p>
                             <ul>
                                 <li>Organized human resource files and payroll information and implemented easy-to-maintain, scalable, and highly organized systems.</li>
@@ -149,7 +156,7 @@
                                 <li>Instilled core servant leadership and team values through policies and procedures.</li>
                             </ul>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-md-4">
                             <p class="work">Finances / Payroll</p>
                             <ul>
                                 <li>Created a bonus program which incentivizes employees while saving the company hundreds of dollars each month.</li>
@@ -158,11 +165,16 @@
                         </div>
                     </div>
                     <div class="row item">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <p class="title">INFORMATION TECH / MAC SPECIALIST</p>
-                            <p class="employer">College of the Ozarks Computer Center—Point Lookout, MO—08/2015 to 05/2016</p>
+                            <p class="employer col-md-4">College of the Ozarks<br>Computer Center</p>
+                            <p class="employer col-md-4">Point Lookout, MO</p>
+                            <p class="employer col-md-4">August 2015 to May 2016</p>
+                            <div class="col-md-12">
+                                <hr>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <p class="work">Helpdesk</p>
                             <ul>
                                 <li>Consistently praised for communicating effectively with both technical and nontechnical users.</li>
@@ -174,13 +186,13 @@
                                 <li>Provided technical assistance to faculty, staff, and students.</li>
                             </ul>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <p class="work">Web Developer</p>
                             <ul>
                                 <li>Assisted in developing Computer Center website (C# ASP.NET with SQL Server backend): user authentication, work order submittals, notifications, CSS changes, and more.</li>
                             </ul>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <p class="work">Mac Specialist</p>
                             <ul>
                                 <li>Set up PC and Apple desktops and laptops and all types of mobile devices.</li>
@@ -188,7 +200,7 @@
                                 <li>Built and provided advanced end-user troubleshooting and support on Windows and Mac systems.</li>
                             </ul>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <p class="work">Networking</p>
                             <ul>
                                 <li>Took training as a network assistant.</li>
@@ -200,8 +212,13 @@
                     </div>
                     <div class="row item">
                         <p class="title">STEEL ERECTOR FOREMAN</p>
-                        <p class="employer">Steel Builders—Rogersville, MO—05/2012 to 08/2015</p>
-                        <div class="col-sm-6">
+                        <p class="employer col-md-4">Steel Builders</p>
+                        <p class="employer col-md-4">Rogersville, MO</p>
+                        <p class="employer col-md-4">May 2012 to August 2015</p>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                        <div class="col-md-6">
                             <p class="work">Leadership</p>
                             <ul>
                                 <li>Reviewed blueprint plans and specs during the erection process to ensure everything was correct.</li>
@@ -210,7 +227,7 @@
                                 <li>Reported the quality of performance on site to the site construction managers.</li>
                             </ul>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <p class="work">Time Management</p>
                             <ul>
                                 <li>Avoided construction delays by efficiently following through with all site inspections in a timely manner.</li>
@@ -228,19 +245,19 @@
             <a href="#education" data-parent="accordion" data-toggle="collapse"><h2>EDUCATION</h2></a>
             <div id="education" class="collapse">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <p class="title">College of the Ozarks</p>
                         <p class="employer">Point Lookout, MO</p>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <p class="employer">Major in Computer Science</p>
                         <p class="employer">Minor in Math and Spanish</p>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <p class="title">Bachelor of Science</p>
                         <p class="employer">Computer Science</p>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <p id="edu">I have completed 93 credits at College of the Ozarks. I am currently 33 credits away from receiving a Bachelor of Science degree in Computer Science. I got married last year and was unable to complete the degree.</p>
                     </div>
                 </div>
@@ -253,19 +270,19 @@
             <div id="ref" class="collapse in">
                 <div class="owl-carousel owl-theme">
                     <div class="row">
-                        <div class="item col-sm-4">
+                        <div class="item col-md-4">
                             <img src="images/Arlan.png" alt="Arlan Campbell" id="arlan" class="ref-pic">
                             <p class="ref-name">Arlan Campbell</p>
                             <a title="Arlan Mobile" href="tel:4178444400" class="ref-contact">(417)-844-4400</a>
                             <a title="Arlan Email" href="mailto:arlan@steeltechmfg.com" class="ref-contact">arlan@steeltechmfg.com</a>
                         </div>
-                        <div class="item col-sm-4">
+                        <div class="item col-md-4">
                             <img src="images/Jeff.png" alt="Jeff Cymbaluk" id="jeff" class="ref-pic">
                             <p class="ref-name">Jeff Cymbaluk</p>
                             <a title="Jeff Mobile" href="tel:4177702338" class="ref-contact">(417)-770-2338</a>
                             <a title="Jeff Email" href="mailto:accounting@steeltechmfg.com" class="ref-contact">accounting@steeltechmfg.com</a>
                         </div>
-                        <div class="item col-sm-4">
+                        <div class="item col-md-4">
                             <img src="images/Jim.png" alt="Jim Buchan" id="jim" class="ref-pic">
                             <p class="ref-name">Jim Buchan</p>
                             <a title="Jim Office" href="tel:4173346411" class="ref-contact">(417)-334-6411 Ext. 3405</a>
